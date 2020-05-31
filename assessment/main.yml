@@ -1,0 +1,7 @@
+---
+
+- name: ec2_creation 
+  hosts: localhost
+  connection: local
+  roles:
+   - { role: ec2_instance }

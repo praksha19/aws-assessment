@@ -1,0 +1,14 @@
+---
+# defaults file for ec2_instance
+#
+---
+
+instance_type: t2.micro
+security_group: webservers
+image: ami-026dea5602e368e96
+keypair: instance_1
+region: us-east-2
+count: 1
+
+#aws_access_key: 
+#aws_secret_key: 

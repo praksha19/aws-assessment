@@ -1,0 +1,6 @@
+---
+
+- name: deploy-html 
+  hosts: instance1
+  roles:
+   - { role: deploy-html }
